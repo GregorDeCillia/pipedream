@@ -1,0 +1,173 @@
+:root {
+  --r-heading1-size: 2.2em;
+  --r-heading-text-transform: none;
+  --r-main-font-size: 34px;
+  --r-heading-color: #eee;
+  --r-main-color: #eee;
+  --r-heading2-size: 2em;
+}
+
+h1.subtitle {
+  font-size: 1.2em;
+}
+
+b, strong {
+  color: orange;
+  color: hsl(40deg 100% 50%);
+}
+
+.reveal a {
+  font-weight: bold;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.dataTables_wrapper{
+  color: black;
+  font-size: 0.5em;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 7px rgb(0 0 0 / 38%);
+}
+
+.dataTables_wrapper .dataTables_filter input {
+  border-radius: 6px;
+}
+
+.dataTables_wrapper .dataTables_paginate a.paginate_button {
+  padding: 0.1em 0.8em;
+}
+
+.dataTables_wrapper div.dataTables_info {
+  padding-top: 0.5em;
+}
+
+.f32 .flag {
+  vertical-align: middle;
+  margin: -8px 0;
+}
+
+progress {
+  width: 100%;
+}
+
+.http {
+  color: hsl(270deg 90% 65%);
+  font-family: var(--r-code-font);
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.app {
+  color: hsl(140deg 60% 50%);
+  font-weight: bold;
+}
+
+.import {
+  font-weight: bold;
+  color: hsl(0deg 80% 50%);
+}
+
+.api {
+  font-weight: bold;
+  color: hsl(270deg 90% 65%);
+}
+
+.cms {
+  color: hsl(180deg 85% 56%);
+  font-weight: bold;
+}
+
+.barchart_tooltip {
+  padding: 20px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: hsl(212deg 63% 50%) !important;
+}
+
+.reveal pre code {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.custom-overlay {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  z-index: 12;
+  transition: opacity 1s;
+  pointer-events: none;
+}
+
+
+.dataTables_wrapper .dataTables_paginate a.paginate_button.current {
+  background: #42affa;
+}
+
+#dt_example_wrapper tr, #dt_example_wrapper {
+  background-color: hsl(146deg 100% 98%);
+}
+
+#component_database tr, #component_database_wrapper {
+  background-color: hsl(270deg 40% 10%);
+  color: hsl(45deg 100% 97%);
+  border: 2px solid hsl(0deg 0% 90%);
+}
+
+#component_database thead tr {
+  background-color: hsl(270deg 69% 12%);
+}
+
+#component_database_wrapper {
+  padding: 3px;
+  padding-bottom: 0;
+}
+
+#component_database, #component_database thead th {
+  border-bottom: 1px solid hsl(0deg 0% 90%);
+}
+
+#component_database thead th {
+  padding: 4px;
+}
+
+span.hljs-name {
+  color: hsl(140deg 74% 61%);
+}
+
+path.highcharts-link {
+  stroke: hsl(0deg 0% 60%);
+}
+
+.reveal aside.controls {
+  transition: color 500ms;
+}
+
+.progress {
+  transition: color 1s;
+}
+
+#import pre.code-wrapper {
+  font-size: 0.8em;
+}
+
+#get pre.code-wrapper {
+  font-size: 0.7em;
+}
+
+.hljs-string {
+  color: hsl(270deg 100% 75%);
+}
+
+#import .hljs-string {
+  color: hsl(0deg 100% 50%);
+}
