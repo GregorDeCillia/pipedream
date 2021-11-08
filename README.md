@@ -17,7 +17,7 @@ Source codes for the slides of the presentation "*Building a Content Delivery Pi
     🌧️ [cloud](https://www.pexels.com/photo/45848), 
     ⛵ [boat](https://www.pexels.com/photo/4203587),
     ✋ [hand](https://www.pexels.com/photo/2837863).
-  * Converted with the [imgix](https://www.imgix.com/) REST API
+  * Converted with the [imgix rendering API](https://docs.imgix.com/apis/rendering)
 * Data for [tables/dt_example.js](tables/dt_example.js) was taken from [this example](https://datatables.net/examples/data_sources/js_array.html)
 * Icon was downloaded from [icons8.com/water-pipe](https://icons8.com/icon/66227/water-pipe/)
 * Flags are provided by the [flagcdn](https://flagpedia.net/download/api) REST API
