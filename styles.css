@@ -171,3 +171,11 @@ path.highcharts-link {
 #import .hljs-string {
   color: hsl(0deg 100% 50%);
 }
+
+.hljs-tag {
+  color: hsl(0deg 90% 60%);
+}
+
+.hljs-attr{
+  color: hsl(200deg 100% 76%);
+}

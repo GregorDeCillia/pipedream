@@ -5,7 +5,7 @@ Currently, there are two datasources which are compatible the component builder 
 
 Both data sources are imported using the open source package [STATcubeR]() which defines a common **interface** for the data sources
 
-```r
+```cpp
 # online docs: statistikat.github.io/STATcubeR
 remotes::install_github("statistikat/STATcubeR")
 ```

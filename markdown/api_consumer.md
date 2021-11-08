@@ -5,15 +5,15 @@ Single items can be requested with <span class="http">/GET table</span> and <spa
 
 The json payload of the response contains a **&lt;div>** or **&lt;table>** tag and a **&lt;script>** tag which define the component
 
-```r
+```cpp
 # get the component from the api
 response <- httr::GET("rsconnect.local/component-api/graph?PK=001")
 payload  <- httr::content(response)
 
 # fill a html template
 fill_table_template(
-  script    = payload$script,   # pass a javascript string
-  container = payload$container # pass container (<div>) as html string
+  script    = payload['script'],   # pass a javascript string
+  container = payload['container'] # pass container (<div>) as html string
 )
 ```
 
