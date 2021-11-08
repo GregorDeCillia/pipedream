@@ -11,43 +11,47 @@ const hc_example = Highcharts.chart('barchart', {
   chart: {
     type: 'column',
     backgroundColor: 'transparent',
+    style: {
+      fontFamily: 'inherit'
+    }
   },
-  colors: ['#326996', '#B0063D', 'hsl(97deg 100% 42%)', 'orange'],
+  colors: ['#326996', '#B0063D'],
   yAxis: {
     labels: {
       style: {
         color: '#eee',
-        fontSize: '20px'
+        fontSize: '24px'
       }
     },
+    tickInterval: 5,
     title: {
       text: 'Hourly earnings in €',
       margin: 20,
       style: {
         color: '#eee',
-        fontSize: '20px'
+        fontSize: '24px'
       }
     }
   },
   credits: {
     text: "Source: Structure of Earnings Survey",
     position: {
-      y: -25
+      y: -27
     },
     style: {
       color: '#cccccc',
-      fontSize: '12px'
+      fontSize: '14px'
     },
     href: 'javascript:window.open("https://data.statistik.gv.at/web/meta.jsp?dataset=OGD_veste301_Veste301_1", "_blank")'
   },
   legend: {
-    itemStyle: {color: '#eee', fontSize: '18px'},
+    itemStyle: {color: '#eee', fontSize: '20px'},
     itemHoverStyle: {color: '#aaa'}
   },
   title: {
     text: 'Average income for different citizenships and genders',
-    style: { color: 'white', fontSize: '30px' },
-    margin: 30
+    style: { color: 'white', fontSize: '33px' },
+    margin: 20
   },
   tooltip: {
     className: 'barchart_tooltip',
@@ -76,7 +80,7 @@ const hc_example = Highcharts.chart('barchart', {
     ],
     labels: {
       style: {
-        color: '#eee', fontSize: '18px'
+        color: '#eee', fontSize: '22px'
       }
     }
   },
