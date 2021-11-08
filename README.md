@@ -1,4 +1,4 @@
-# uRos2020 slides: Pipeline <img align="right" width="90" height="90" src="www/favicon.png">
+# uRos2021 slides: Pipeline <img align="right" width="90" height="90" src="www/favicon.png">
 
 Source codes for the slides of the presentation "*Building a Content Delivery Pipeline for a Website in R*" hosted at https://pipedream.netlify.app.
 
@@ -14,7 +14,7 @@ Source codes for the slides of the presentation "*Building a Content Delivery Pi
   * Individual pictures:
     🥧 [pipe](https://www.pexels.com/photo/7417579),
     💧 [droplets](https://www.pexels.com/photo/268854), 
-    ⚒️ [mine](https://www.pexels.com/photo/2892618), 
+    🌧️ [cloud](https://www.pexels.com/photo/45848), 
     ⛵ [boat](https://www.pexels.com/photo/4203587),
     ✋ [hand](https://www.pexels.com/photo/2837863).
   * Converted with the [imgix](https://www.imgix.com/) REST API
