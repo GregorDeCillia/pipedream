@@ -59,26 +59,31 @@ progress {
   font-family: var(--r-code-font);
   font-size: 0.8em;
   font-weight: bold;
+  color: orange;
 }
 
 .app {
   color: hsl(140deg 60% 50%);
   font-weight: bold;
+  color: orange;
 }
 
 .import {
   font-weight: bold;
   color: hsl(0deg 80% 50%);
+  color: orange;
 }
 
 .api {
   font-weight: bold;
   color: hsl(270deg 90% 65%);
+  color: orange;
 }
 
 .cms {
   color: hsl(180deg 85% 56%);
   font-weight: bold;
+  color: orange;
 }
 
 .barchart_tooltip {
