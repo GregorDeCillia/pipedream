@@ -148,6 +148,17 @@ path.highcharts-link {
   stroke: hsl(0deg 0% 60%);
 }
 
+.table-flag{
+  transition: transform 200ms;
+  transform-origin: right;
+  margin: 0 !important; 
+  vertical-align: middle;
+}
+
+.table-flag:hover{
+  transform: scale(1.5);
+}
+
 .reveal aside.controls {
   transition: color 500ms;
 }

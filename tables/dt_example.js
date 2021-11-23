@@ -85,8 +85,8 @@ $(document).ready(function() {
                   break;
               }
 
-              flag = `<img style="margin: 0; vertical-align: middle;"
-                src="https://flagcdn.com/24x18/${country}.png"
+              flag = `<img class="table-flag" 
+                src="https://flagcdn.com/40x30/${country}.png"
                 width="24" height="18"> ${data}`
 
               return flag;
