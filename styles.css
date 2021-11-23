@@ -190,3 +190,44 @@ path.highcharts-link {
 .hljs-attr{
   color: hsl(200deg 100% 76%);
 }
+
+ul>::marker {
+  content: "⮚";
+}
+
+li {
+  padding-inline-start: 1ch;
+}
+
+ol {
+  counter-reset: my-awesome-counter;
+  list-style: none;
+  padding-left: 30px;
+}
+
+ol li {
+  list-style: none;
+  margin: 0 0 0rem 0;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  --bg-color: #8a0f0f;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter);
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  --bg-size: 32px;
+  left: calc(-1 * var(--bg-size) - 10px);
+  line-height: var(--bg-size);
+  width: var(--bg-size);
+  height: var(--bg-size);
+  top: .2em;
+  transform: rotate(-0deg);
+  background: var(--bg-color);
+  border-radius: 50%;
+  text-align: center;
+  --box-shadow: 1px 1px 0px var(--bg-color);
+}
