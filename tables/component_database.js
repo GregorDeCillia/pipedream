@@ -11,7 +11,7 @@ $(document).ready(function() {
     ordering: false,
     dom: 't',
     columns: [
-      { title: "PK" },
+      { title: "Key" },
       { title: "Created at" },
       { title: "Creator",
         render: function(data, type) {
