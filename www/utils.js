@@ -62,5 +62,4 @@ boost_video_volume = (gain = 5) => {
   gainNode.connect(audioCtx.destination);
 }
 
-boost_video_volume();
-//setTimeout(boost_video_volume, 1000)
+//boost_video_volume();
