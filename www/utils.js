@@ -49,3 +49,18 @@ function setLinks() {
 }
 
 setTimeout(setLinks, 400)
+
+boost_video_volume = (gain = 5) => {
+  var vid = document.querySelector("#app_demo");
+  var audioCtx = new AudioContext();
+  var source = audioCtx.createMediaElementSource(vid);
+  var gainNode = audioCtx.createGain();
+  gainNode.gain.value = gain; // increase the volume
+  source.connect(gainNode);
+  
+  // connect the gain node to an output destination
+  gainNode.connect(audioCtx.destination);
+}
+
+boost_video_volume();
+//setTimeout(boost_video_volume, 1000)
