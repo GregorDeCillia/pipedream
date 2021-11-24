@@ -7,7 +7,7 @@ The json payload of the response contains a **&lt;div>** or **&lt;table>** tag a
 
 ```cpp
 # get the component from the api
-response <- httr::GET("rsconnect.local/component-api/graph?PK=001")
+response <- httr::GET("rsconnect.local/component-api/graph?Key=001")
 payload  <- httr::content(response)
 
 # fill a html template
