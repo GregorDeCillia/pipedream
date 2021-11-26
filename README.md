@@ -6,7 +6,7 @@ Source codes for the slides of the presentation "*Building a Content Delivery Pi
 
 * Watch this presentaion on youtube via https://youtu.be/kjUtApjK6XE?t=215
 * View the slides at https://gregordecillia.github.io/pipedream
-* pdf slides: https://gregordecillia.github.io/presentation.pdf
+* pdf slides: https://gregordecillia.github.io/pipedream/pdf/presentation.pdf
 
 ## 🔨 Tools
 
