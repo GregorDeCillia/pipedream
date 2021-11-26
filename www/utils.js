@@ -30,7 +30,7 @@ let linkmap = {
   'RSConnect': 'https://www.rstudio.com/products/connect/',
   'STATcube': 'https://www.statcube.at/',
   'Open Government Data': 'https://data.statistik.gv.at',
-  'STATcubeR': 'statistikat.github.io/STATcubeR',
+  'STATcubeR': 'https://statistikat.github.io/STATcubeR',
   'Open Data Portal': 'https://data.statistik.gv.at',
   'json API request': 'https://docs.wingarc.com.au/superstar/9.10/open-data-api/use-superweb2-to-build-api-queries',
   'shiny fileInput': 'https://shiny.rstudio.com/reference/shiny/1.6.0/fileInput.html',
