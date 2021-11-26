@@ -21,7 +21,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Statistics Austria is currently working towards the release of a new website.
 An important part of it, namely **graphs** and **tables**, will be created using R
 
-Content creators will create **graphs** and **tables** via a shiny app and transfer them to the content management system (**CMS**). The transfer uses a plumber REST API under the hood
+Content creators will create **graphs** and **tables** via a shiny app and transfer them to the content management system (**CMS**).
+The transfer uses a plumber REST API under the hood
 
 ## Outline
 
@@ -49,7 +50,8 @@ Tables are created using datatables.js which provides features like **sorting**,
 
 ## Component Builder App
 
-The component builder **app** is a shiny application which is hosted on RStudio Connect. It guides the content creator through the component generation process
+The component builder **app** is a shiny application which is hosted on RStudio Connect.
+It guides the content creator through the component generation process
 
 - Data can be **imported** from different sources
 - Components can be **created** and **previewed**.
