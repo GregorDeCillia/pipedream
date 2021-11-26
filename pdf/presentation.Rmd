@@ -18,11 +18,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Abstract
 
-Statistics Austria is currently working towards the release of a new website.
-An important part of it, namely **graphs** and **tables**, will be created using R
+[Statistics Austria] is currently working towards the release of a new website.
+An important part of it, namely **graphs** and **tables**, will be created using [R]
 
-Content creators will create **graphs** and **tables** via a shiny app and transfer them to the content management system (**CMS**).
-The transfer uses a plumber REST API under the hood
+Content creators will create **graphs** and **tables** via a [shiny app] and transfer them to the content management system (**CMS**).
+The transfer uses a [plumber] REST API under the hood
 
 ## Outline
 
@@ -42,15 +42,15 @@ Both the graphs and tables are **interactive** in the sense that they provide ho
 
 ## Graphs
 
-Graphs are generated with highcharts.js and the corresponding R package highcharter
+Graphs are generated with [highcharts.js] and the corresponding R package [highcharter]
 
 ## Tables
 
-Tables are created using datatables.js which provides features like **sorting**, **searching** and more
+Tables are created using [datatables.js] which provides features like **sorting**, **searching** and more
 
 ## Component Builder App
 
-The component builder **app** is a shiny application which is hosted on RStudio Connect.
+The component builder **app** is a [shiny] application which is hosted on [RStudio Connect].
 It guides the content creator through the component generation process
 
 - Data can be **imported** from different sources
@@ -62,9 +62,9 @@ It guides the content creator through the component generation process
 
 ## Data Import
 
-Currently, there are two datasources which are compatible the component builder **app**: STATcube and Open Government Data
+Currently, there are two datasources which are compatible the component builder **app**: [STATcube] and [Open Government Data]
 
-Both data sources are imported using the open source package STATcubeR which defines a common **interface** for the data sources
+Both data sources are imported using the open source package [STATcubeR] which defines a common **interface** for the data sources
 
 ```r
 # online docs: statistikat.github.io/STATcubeR
@@ -73,7 +73,7 @@ remotes::install_github("statistikat/STATcubeR")
 
 ## Open Government Data
 
-The Open Data Portal of Statistics Austria provides a series of datasets following the **open data** principles
+The [Open Data Portal of Statistics Austria] provides a series of datasets following the **open data** principles
 
 About **300 datasets** are compatible with the component builder **app** which provides a coverage of about **95%**
 
@@ -85,8 +85,8 @@ More information can be found at https://statistikat.github.io/STATcubeR/article
 
 STATcube allows you to **generate** custom tables from databases and **export** them in different formats
 
-One export option, the "json API request", is compatible with the **component builder app**.
-The exported json file can be provided to the app via a shiny fileInput
+One export option, the "[json API request]", is compatible with the **component builder app**.
+The exported json file can be provided to the app via a [shiny fileInput]
 
 The app then fetches data from the **STATcube REST API**
 
@@ -99,13 +99,13 @@ More information can be found at https://statistikat.github.io/STATcubeR/article
 In order to make the **graphs** and **tables** available for the **CMS**, a **REST API** is used.
 The **app exports** the components to a **database** and the **CMS imports** the components
 
-The API is built with plumber and hosted on RSConnect
+The API is built with [plumber] and hosted on [RSConnect]
 
 ## Export: App to Database
 
 When a user **exports** a graph or table, the app performs a **/POST** request against the component API
 
-The component is submitted as a binary object in the request body and added to a **BLOB** field in the **component database**
+The component is submitted as a [binary] object in the request body and added to a **BLOB** field in the **component database**
 
 The database also captures **metadata** about the component such as the author and a timestamp
 
@@ -170,22 +170,42 @@ The **template** defines where the component (graph) is inserted and loads all n
 
 Frameworks
 
-* shiny defines the component builder **app**
-* The component **API** is generated with plumber
+* [shiny] defines the component builder **app**
+* The component **API** is generated with [plumber]
 
 Front End
 
-* highcharter builds the **graphs**
-* All **tables** are generated using datatables.js
+* [highcharter] builds the **graphs**
+* All **tables** are generated using [datatables.js]
 
 Back End
 
-* httr communicates with the **plumber API** and the **STATcube API**
-* Data **import** is performed with the STATcubeR package
+* [httr] communicates with the **plumber API** and the **STATcube API**
+* Data **import** is performed with the [STATcubeR] package
 
 ## Open Source Roadmap
 
-Currently, the package STATcubeR is available on github.
-It will be released to CRAN when the STATcube REST API becomes available for external users
+Currently, the package [STATcubeR] is available on github.
+It will be released to [CRAN] when the [STATcube] REST API becomes available for external users
 
 The internal packages **STATgraph** and **STATtable**, which create graphs and tables based on the **STATcubeR** data interface, might become open-source once the pipeline is fully integrated in the **CMS** workflow
+
+[Statistics Austria]: https://www.statistik.at
+[shiny]: https://shiny.rstudio.com/
+[shiny app]: https://shiny.rstudio.com/
+[R]: https://www.r-project.org/
+[plumber]: https://www.rplumber.io/
+[highcharts.js]: https://www.highcharts.comm/
+[highcharter]: https://jkunst.com/highcharter/
+[datatables.js]: https://datatables.net/
+[RStudio Connect]: https://www.rstudio.com/products/connect/
+[RSConnect]: https://www.rstudio.com/products/connect/
+[STATcube]: https://www.statcube.at/
+[Open Government Data]: https://data.statistik.gv.at
+[Open Data Portal]: https://data.statistik.gv.at
+[json API request]: https://docs.wingarc.com.au/superstar/9.10/open-data-api/use-superweb2-to-build-api-queries
+[shiny fileInput]: https://shiny.rstudio.com/reference/shiny/1.6.0/fileInput.html
+[binary]: https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/serialize
+[httr]: https://httr.r-lib.org/
+[CRAN]: https://cran.r-project.org/
+[STATcubeR]: https://statistikat.github.io/STATcubeR/
