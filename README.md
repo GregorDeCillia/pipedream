@@ -1,6 +1,11 @@
 # uRos2021 slides: Pipeline <img align="right" width="90" height="90" src="www/favicon.png">
 
-Source codes for the slides of the presentation "*Building a Content Delivery Pipeline for a Website in R*" from the [uRos2021 conference](http://r-project.ro/conference2021.html). You can view the slides at https://gregordecillia.github.io/pipedream.
+Source codes for the slides of the presentation "*Building a Content Delivery Pipeline for a Website in R*" from the [uRos2021 conference](http://r-project.ro/conference2021.html). 
+
+## 🔗 Links
+
+* Watch this presentaion on youtube via https://youtu.be/kjUtApjK6XE?t=215
+* View the slides at https://gregordecillia.github.io/pipedream.
 
 ## 🔨 Tools
 
