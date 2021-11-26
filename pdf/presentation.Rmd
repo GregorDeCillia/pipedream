@@ -40,13 +40,10 @@ The components that can be delivered by the pipeline are **graphs** and **tables
 
 Both the graphs and tables are **interactive** in the sense that they provide hover and/or click events
 
-## Graphs
+* Graphs are generated with [highcharts.js] and the corresponding R package [highcharter]
+* Tables are created using [datatables.js] which provides features like **sorting**, **searching** and more
 
-Graphs are generated with [highcharts.js] and the corresponding R package [highcharter]
-
-## Tables
-
-Tables are created using [datatables.js] which provides features like **sorting**, **searching** and more
+Interactive demos can be found in the [html version of these slides]
 
 ## Component Builder App
 
@@ -225,3 +222,4 @@ The internal packages **STATgraph** and **STATtable**, which create graphs and t
 [httr]: https://httr.r-lib.org/
 [CRAN]: https://cran.r-project.org/
 [STATcubeR]: https://statistikat.github.io/STATcubeR/
+[html version of these slides]: https://GregorDeCillia.github.io/pipedream/
