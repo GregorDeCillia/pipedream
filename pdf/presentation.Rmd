@@ -26,6 +26,8 @@ The transfer uses a [plumber] REST API under the hood
 
 ## Outline
 
+\includegraphics{workflow.png}
+
 Parts of the presentation
 
 1. Showcase the **app** and **components**
@@ -92,6 +94,8 @@ More information can be found at https://statistikat.github.io/STATcubeR/article
 # Transfer Mechanism
 
 ## Transfer: App to CMS
+
+\includegraphics{workflow_api.png}
 
 In order to make the **graphs** and **tables** available for the **CMS**, a **REST API** is used.
 The **app exports** the components to a **database** and the **CMS imports** the components
