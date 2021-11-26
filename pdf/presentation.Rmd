@@ -70,7 +70,7 @@ remotes::install_github("statistikat/STATcubeR")
 
 ## Open Government Data
 
-The [Open Data Portal of Statistics Austria] provides a series of datasets following the **open data** principles
+The [Open Data Portal] of Statistics Austria provides a series of datasets following the **open data** principles
 
 About **300 datasets** are compatible with the component builder **app** which provides a coverage of about **95%**
 
