@@ -207,6 +207,12 @@ It will be released to [CRAN] when the [STATcube] REST API becomes available for
 
 The internal packages **STATgraph** and **STATtable**, which create graphs and tables based on the **STATcubeR** data interface, might become open-source once the pipeline is fully integrated in the **CMS** workflow
 
+## Thank you for your attention
+
+More information as well as the source code for these slides can be found at https://github.com/GregorDeCillia/pipedream
+
+A video with this presentation is available at https://youtu.be/kjUtApjK6XE?t=215
+
 [Statistics Austria]: https://www.statistik.at
 [shiny]: https://shiny.rstudio.com/
 [shiny app]: https://shiny.rstudio.com/
