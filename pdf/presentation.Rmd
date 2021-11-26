@@ -57,6 +57,8 @@ It guides the content creator through the component generation process
   Sensible defaults make it possible do this with a few clicks
 - An **export menu** makes the component accessible for the **CMS**
 
+A demo video of the app can be found in the [html version of these slides]
+
 # Data Import
 
 ## Data Import
