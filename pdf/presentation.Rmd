@@ -145,7 +145,8 @@ The json payload of the response contains a `<div>` or `<table>` tag and a `<scr
 
 ```r
 # get the component from the api
-response <- httr::GET("rsconnect.local/component-api/graph?Key=001")
+response <- httr::GET(
+  "rsconnect.local/component-api/graph?Key=001")
 payload  <- httr::content(response)
 
 # fill a html template
