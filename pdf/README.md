@@ -6,7 +6,14 @@ Based on the Rmarkdown format `slideSTAT`, which is also used in other presentat
 The rendered pdf will be added here when the slides are finished
 
 TODO: 
-- [ ] add links
-- [ ] add graphs
-- [ ] add tables
-- [ ] adapt formulations
+- [x] add links
+- [x] add graphs
+- [x] add tables
+- [x] adapt formulations
+
+## How to build
+
+1. take screenshots from organization_charts.html
+2. knit the Rmd file with rmarkdown::render("presentation.Rmd")
+
+The second step requires the `slideSTAT` package
