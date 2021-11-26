@@ -117,6 +117,21 @@ The **`/GET`** method of the **component API** lists all components in a json fo
 httr::GET("rsconnect.local/component-api")
 ```
 
+```{r, echo=FALSE, out.width="90%"}
+library(magrittr)
+data.frame(
+  Key = c("001", "002", "003", "004"),
+  "Created at" = c("2021-09-19/11:43", "2021-09-19/14:17", "2021-09-20/06:34", "2021-09-21/13:29"),
+  Creator = c("decill", "meindl", "decill", "kowa"),
+  "Custom Label" = c("Cancer Types by Year", "Household Forecast", "Structure of Earnings", "Tourism: Correlations"),
+  "Data Source" = c("OGD_krebs_ext_KREBS_1", "OGD_f1741_HH_Proj_1", "OGD_veste301_Veste301_1", "detouextregsai"),
+  "Graph" = c("NULL", "Timeseries", "Barplot", "Scatterplot"),
+  "Table" = c("175x3", "NULL", "122 x 7", "02 x 9")
+) %>%
+  knitr::kable() %>%
+  kableExtra::kable_styling(font_size = 5.8)
+```
+
 Each row represents a **graph**, a **table** or both. Notice the **`NULL`** values in the last two rows
 
 The columns **Creator** and **Data Source** reference the user and dataset behind a component
