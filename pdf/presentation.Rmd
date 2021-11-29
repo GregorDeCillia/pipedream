@@ -8,6 +8,7 @@ author:
 output: 
   slideSTAT::slideSTAT:
     h1_slides: false
+    language: "en"
 ---
 
 ```{r setup, include=FALSE}
