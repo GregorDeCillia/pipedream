@@ -1,0 +1,26 @@
+{
+  "title": "Building a content delivery pipeline for a website in R",
+  "subtitle": "Embedding web components from R into a content management system",
+  "tags": ["visualize", "open data", "shiny", "highcharts", "datatables"],
+  "venue": {
+    "conference": "uRos2021",
+    "url": "https://r-project.ro/conference2021.html",
+    "day": 2,
+    "session": " Scientific Session Dissemination and visualization",
+    "presented": "2021-11-05"
+  },
+  "authors": [
+    {"first": "Gregor", "last": "de Cillia"},
+    {"first": "Bernhard", "last": "Meindl"},
+    {"first": "Alexander", "last": "Kowarik"}
+  ],
+  "presenter": {
+    "first": "Gregor",
+    "last": "de Cillia",
+    "mail": "Gregor.deCillia@statistik.gv.at",
+    "company": "Statistics Austria",
+    "unit": "quality management, methodology and classifications",
+    "subunit": "methodology"
+  },
+  "repo": "https://github.com/GregorDeCillia/pipedream"
+}
